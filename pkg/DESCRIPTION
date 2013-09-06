@@ -1,0 +1,13 @@
+Package: LMFnlsq
+Type: Package
+Title: Levenberg-Marquard-Fletcher method with multiple non-linear constraints on the variables
+Author: José Gama
+Version: 1.0.0
+Encoding: UTF-8
+Authors@R: c(person(given = "José", family = "Gama", role = c("aut","cre"),email = "jgama@abo.fi"),
+    person(given = "Miroslav", family = "Balda", role = "aut"),
+    person(given = "Göran", family = "Högnäs", role = "ths"))
+Description: Levenberg-Marquard-Fletcher method for non-linear least squares problems, based on the work from Prof. Miroslav Balda. This implementation of LMF takes multiple non-linear constraints on the variables.
+License: GPL (>= 3)
+Depends: R (>= 2.7.0)
+Enhances: Matrix, pracma
