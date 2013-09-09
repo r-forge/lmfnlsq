@@ -5,7 +5,7 @@ Author: José Gama
 Version: 1.0.0
 Encoding: UTF-8
 Authors@R: c(person(given = "José", family = "Gama", role = c("aut","cre"),email = "jgama@abo.fi"),
-    person(given = "Miroslav", family = "Balda", role = "aut"),
+    person(given = "Miroslav", family = "Balda", role = c("aut","cph")),
     person(given = "Göran", family = "Högnäs", role = "ths"))
 Description: Levenberg-Marquard-Fletcher method for non-linear least squares problems, based on the work from Prof. Miroslav Balda. This implementation of LMF takes multiple non-linear constraints on the variables.
 License: GPL (>= 3)
